@@ -39,4 +39,8 @@ public class PostController {
       List<PostDto> postDtos=postService.getAllPosts();
         return new ResponseEntity<>(postDtos,HttpStatus.OK);
     }
+   public void test(){
+
+   }
+   
 }
